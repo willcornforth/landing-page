@@ -31,6 +31,10 @@ button:hover {
     color:white;
 }
 
+img {
+    max-width: 50%;
+}
+
 .secondary-text {
     font-size: 18px;
     color: #e5e7eb;
@@ -81,10 +85,4 @@ button:hover {
     gap: 8px;
 
     padding: 8px 0px;
-}
-
-.img-placeholder {
-    padding: 160px;
-    background-color: gray;
-    color:white
 }
