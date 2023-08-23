@@ -3,12 +3,6 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-}
-
 a:link {
     text-decoration: none;
 }
@@ -33,6 +27,12 @@ button:hover {
 
 img {
     max-width: 50%;
+}
+
+.primary-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
 
 .secondary-text {
@@ -85,4 +85,10 @@ img {
     gap: 16px;
 
     padding: 8px 0px;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
