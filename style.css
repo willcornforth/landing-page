@@ -108,11 +108,22 @@ img {
 }
 
 .card {
-    width: 15%;
+    width: 10%;
     flex-wrap: wrap;
 }
 
 .card-img {
-    background-color: green;
-    padding: 100px;
+    background-color: #3882f6;
+    padding: 16px;
+    border-radius: 10px;
+    border-width: 8px;
+    border: #3882f6;
+}
+
+.card-img img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
