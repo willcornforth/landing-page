@@ -46,6 +46,18 @@ container, img {
     padding-right: 20%;
 }
 
+.header-container img {
+    border: #e5e7eb;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.header-container img:hover {
+    border: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+}
+
 .header-top {
     display: flex;
     justify-content: space-between;
