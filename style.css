@@ -11,10 +11,9 @@ a:hover {
     color: white;
 }
 
-button {
+.header-container button {
     background-color: #3882f6;
     border-radius: 10px;
-    border-width: 0;
 
     padding: 8px 16px;
 
@@ -167,5 +166,40 @@ container, img {
 }
 
 .cta-container {
-    padding: 112px 20%;
+    display: flex;
+    padding: 112px 15%;
+}
+
+.cta-box {
+    display: flex;
+    gap: 64px;
+
+    border-radius: 10px;
+    padding: 32px 128px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.cta-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-button-container button {
+    background-color: #3882f6;
+    color: #f9faf8;
+
+    padding: 8px 16px;
+
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:#f9faf8;
+}
+
+.cta-button-container button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+    border-color:#3882f6;
 }
