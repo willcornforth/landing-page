@@ -204,3 +204,14 @@ container, img {
     color: #3882f6;
     border-color:#3882f6;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: #e5e7eb;
+    background-color: #1f2937;
+
+    padding: 2% 2%;
+}
