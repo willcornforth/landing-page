@@ -99,6 +99,8 @@ container, img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    padding-bottom: 112px;
 }
 
 .card-container {
@@ -133,4 +135,25 @@ container, img {
 
 .card-img img {
     scale: 1.5;
+}
+
+.quote-container {
+    padding: 112px 20%;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-owner {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta-container {
+    padding: 112px 20%;
 }
